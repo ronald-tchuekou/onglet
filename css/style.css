@@ -1,0 +1,29 @@
+.menu a{
+    color: #686868;
+    text-decoration: none;
+}
+.menu{
+    line-height: 40px;
+    margin: 0;
+    border-bottom: 1px solid #b3b7bb;
+    border-left: 1px solid #b3b7bb;
+    display: block;
+    width: 130px;
+    text-align: center;
+    color: #f7f7f8;
+    transition: background-color .5s;
+}
+.menu:last-child{
+    border-right: 1px solid #b3b7bb;
+}
+.menu:hover, .menu.active{
+    background-color: #ffffff;
+    border-bottom: none;
+    cursor: pointer;
+}
+body{
+    background: #b3b7bb;
+}
+.container{
+    background: #ffffff;
+}
